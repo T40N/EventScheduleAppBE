@@ -4,35 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42b63906-f3e3-4440-aac8-a6661b205898" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/EventScheduleBE.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/access_level.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/auth_token.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth/password_verifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/dtos/event_create_dto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/dtos/event_delete_dto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/dtos/event_dto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event/event_router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/associations/user_event_association.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/config/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_main.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/dtos/user_create_dto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/dtos/user_delete_dto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/dtos/user_dto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/user_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/user_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/user_repository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/user_router.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/user_service.py" afterDir="false" />
+    <list default="true" id="42b63906-f3e3-4440-aac8-a6661b205898" name="Changes" comment="Problem with pydantic.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,12 +96,25 @@
       <workItem from="1710018054940" duration="8202000" />
       <workItem from="1710062237134" duration="190000" />
       <workItem from="1710181079646" duration="4664000" />
-      <workItem from="1710189907436" duration="6246000" />
+      <workItem from="1710189907436" duration="6944000" />
     </task>
+    <task id="LOCAL-00001" summary="Problem with pydantic.">
+      <option name="closed" value="true" />
+      <created>1710197417145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710197417145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Problem with pydantic." />
+    <option name="LAST_COMMIT_MESSAGE" value="Problem with pydantic." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/EventScheduleBE$EventScheduleBE.coverage" NAME="EventScheduleBE Coverage Results" MODIFIED="1710193613049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
